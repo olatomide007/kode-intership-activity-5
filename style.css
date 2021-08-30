@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+.fas{
+    color: #aaa;
+    margin: 12px 31em;
+    font-size: 16px;
+}
+
+.container{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+
+.first{
+    text-align: center;
+    padding: 0 11em;
+    margin-bottom: 5em;
+}
+
+.biggest-word{
+    color: rgb(253, 223, 227);
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    margin: 20px auto 10px;
+}
+
+.first-img{
+    width: 45%;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.big-word{
+    color:  rgb(253, 223, 227);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.many-words{
+    color: #555;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.fab{
+    color: #fff;
+    margin: 20px 15px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+
+/** second sec starts **/
+
+.row-second{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-second:nth-child(2){
+     width: 150%;
+     margin-left: 30px;
+     
+}
+
+.second-word{
+    text-align: left;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.bigger-word{
+    color: rgb(253, 223, 227);
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.left-words{
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.second-big-word{
+    margin-top: 0;
+    font-size: 13px;
+    
+}
+
+.chat .fas{
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+
+    
+    
+}
+
+.chat-word{
+    color: #fff;
+    margin: 0 0 0 5px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    opacity: 0.8;
+
+    
+}
+
+.chat{
+    margin-bottom: 7em;
+}
+
+
+/**  third sec starts **/
+
+.third{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto 6em;
+}
+.number{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 1px solid  rgb(253, 223, 227);
+    padding: 1em 0;
+    opacity: 0.9;
+
+}
+
+.line-height{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 1em auto 0;
+}
+
+.fa-arrow-down{
+    text-align: center;
+    margin: 1em 0;
+    color: #fff;
+    opacity: 0.9;
+
+}
+
+.third-word{
+    color:  rgb(253, 223, 227);
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+/**  four sec starts **/
+
+.four-img{
+    width: 350%;
+    height: 150%;
+    border-radius: 20%;
+    
+}
+
+.four-grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-column-gap: 15em;
+    grid-row-gap: 10em;
+    margin-left: 7em;
+    margin-bottom: 10em;
+    
+}
+
+.learn-btn{
+    padding: 13px 27px;
+    color: rgb(253, 223, 227);
+    background-color: #000000;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid rgb(253, 223, 227);
+    margin-left: 29em;
+    margin-bottom: 6em;
+}
+
+/** five sectio starts **/
+
+.five-words{
+    color: rgb(253, 223, 227);
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 15px;
+    text-align: left;
+    
+}
+
+.five-grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 80px;
+    grid-gap: 3em;
+    margin-left: 10em;
+    margin-bottom: 5em;
+}
+
+.five-img{
+    width: 20%;
+    margin-top: 10em;
+}
+
+.five-color-words{
+    text-align: left;
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+
+/** centers-ix starts**/
+
+.center-six{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.num-word{
+     margin: -14px 0 0 20px;
+     text-align: center;
+     font-weight: bolder;
+     font-size: 10px;
+     color: #fff;
+     opacity: 0.8;
+
+}
+
+.fa-phone-alt{
+    margin: 10px 90px 0 0;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+.six-img{
+    width: 15%;
+    border-radius: 50%;
+    height: 130px;
+    margin: 20px 0;
+}
+
+.six-word{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    width: 20%;
+    margin: 10px auto;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+
+
+
